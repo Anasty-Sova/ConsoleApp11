@@ -15,7 +15,7 @@ public class Main {
             System.out.println("File existed");
         }
         else {
-            System.out.println("File created!");//fd
+            System.out.println("File created!");
         }
 
         FileReader fileReader = new FileReader(file);
@@ -23,15 +23,20 @@ public class Main {
 
         String str;
         int sum = 0;
-        int sal = 0;
-        int co=42;
+        int num = 0;
+        int cout =0;
+
 
     while ((str =bufferedReader.readLine())!=null)
     {
-        sum += Integer.parseInt(str);
-        sal = sum / co;
+
+        num = Integer.parseInt(str);
+        if (num%2!=0)
+        {
+            cout++;
+        }
     }
-        System.out.println(sum);
-        System.out.println(sal);
+        System.out.println(cout);
     }
+    
 }
