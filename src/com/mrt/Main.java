@@ -15,7 +15,7 @@ public class Main {
             System.out.println("File existed");
         }
         else {
-            System.out.println("File created!");//fdsgdf
+            System.out.println("File created!");//fds
         }
 
         FileReader fileReader = new FileReader(file);
