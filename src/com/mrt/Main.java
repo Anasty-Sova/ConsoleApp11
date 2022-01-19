@@ -23,15 +23,15 @@ public class Main {
 
         String str;
         int sum = 0;
-        int sa = 0;
+        int sal = 0;
         int co=42;
 
     while ((str =bufferedReader.readLine())!=null)
     {
         sum += Integer.parseInt(str);
-        sa = sum / co;
+        sal = sum / co;
     }
         System.out.println(sum);
-        System.out.println(sa);
+        System.out.println(sal);
     }
 }
